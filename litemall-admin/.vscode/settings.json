@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true, // 保存时格式化
+  "javascript.format.enable": false, // 关闭自带的格式化
+  "eslint.enable": true, // 启用eslint
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ], // eslint 识别格式
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "singleQuote": true,
+      "semi": false
+    }, // vetur 调用 prettier 的配置
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
